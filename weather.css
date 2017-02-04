@@ -1,0 +1,95 @@
+body{
+    background-image: url('screenshots/atlanta_bg.jpeg');
+
+background-repeat: no-repeat;
+background-size: 100%;
+    
+}
+
+input{
+    font-size: 20px;
+}
+
+input::-webkit-input-placeholder {
+  color: orange;
+    padding-left: 25%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#city{
+     position: absolute;
+            top:80px;
+            left:500px;
+            width:450px;
+            height:40px;
+            border:solid grey 2px;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#cityInfo{
+    position:absolute;
+    top:230px;
+    left:700px;
+/*    width:100px;*/
+    color:whitesmoke;
+    font-size: 25px;
+    line-height:30px;
+ white-space:pre;
+}
+
+ #result{
+            position: absolute;
+            top:120px;
+            left:500px;
+            width:446px;
+          color: black;
+/*            border:solid grey 2px;*/
+        }
+
+h2{
+    position: absolute;
+top:170px;
+    left: 570px;
+    color: black;
+    font-size: 45px;
+}
+
+li{
+            list-style: none;
+            position: relative;
+            right: 27px;
+            
+        }
+
+#cityInfo span{
+    white-space:pre;
+    color:papayawhip;
+    font-size:22px;
+}
+
+#weatherResult{
+    position: absolute;
+            top:300px;
+            left:650px;
+            line-height: 25px;
+    color: black;
+    font-size: 20px;
+/*
+    width: 220px;
+    height: 290px;
+*/
+/*    margin: 100px;*/
+    
+    
+}
+#resultDom{
+    background-color:rgba(1, 1, 1, 0.2);
+}
+
+#weatherResult span{
+    white-space:pre;
+    color:firebrick;
+    font-size:20px;
+}
